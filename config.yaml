@@ -68,14 +68,14 @@ sensor:
     sensors: 
       #Voltage
       - id: v_in_1
-        name: '${friendly_name} - Current Input 1'
+        name: '${friendly_name} - Voltage Input 1'
         unit_of_measurement: V
         accuracy_decimals: 2
         icon: "mdi:lightning-bolt-outline"
         state_class: measurement
         device_class: voltage
       - id: v_in_2
-        name: '${friendly_name} - Current Input 2'
+        name: '${friendly_name} - Voltage Input 2'
         unit_of_measurement: V
         accuracy_decimals: 2
         icon: "mdi:lightning-bolt-outline"
