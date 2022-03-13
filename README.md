@@ -28,11 +28,11 @@ This Inverter Monitor exploits the communication library to expose some of the a
 | power_peak_max         |          W          |         0         |
 | inverter_temp          |          °C         |         2         |
 | booster_temp           |          °C         |         2         |
-| cumulated_energy_today |          Wh         |         0         |
-| cumulated_energy_week  |          Wh         |         0         |
-| cumulated_energy_month |          Wh         |         0         |
-| cumulated_energy_year  |          Wh         |         0         |
-| cumulated_energy_total |          Wh         |         0         |
+| cumulated_energy_today |          kWh        |         3         |
+| cumulated_energy_week  |          kWh        |         3         |
+| cumulated_energy_month |          kWh        |         3         |
+| cumulated_energy_year  |          kWh        |         3         |
+| cumulated_energy_total |          kWh        |         3         |
 
 
 > **_NOTE:_**  `power_in_total` is the sum of `power_in_1` and `power_in_2` values.
@@ -53,3 +53,8 @@ The full guide of the `esphome` ccommand line interface can be found in the [ESP
 
 ### Uploading the binary to the ESP device
 > esphome config.yaml upload
+
+### ESPHome Dashboard
+- clone repository to esphome folder (where the .yaml files go)
+- `cp esphome_aurora_inverter/config.yaml .` (copy config so it can be found by ESPHome)
+- Will appear and can be installed from ESPHome dashboard

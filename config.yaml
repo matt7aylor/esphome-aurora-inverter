@@ -151,7 +151,7 @@ sensor:
       - id: cumulated_energy_today
         name: '${friendly_name} - Daily Energy'
         unit_of_measurement: "kWh"
-        accuracy_decimals: 0
+        accuracy_decimals: 3
         icon: "mdi:car-battery"
         state_class: total_increasing
         device_class: energy
@@ -161,7 +161,7 @@ sensor:
       - id: cumulated_energy_week
         name: '${friendly_name} - Weekly Energy'
         unit_of_measurement: "kWh"
-        accuracy_decimals: 0
+        accuracy_decimals: 3
         icon: "mdi:car-battery"
         state_class: total_increasing
         device_class: energy
@@ -171,7 +171,7 @@ sensor:
       - id: cumulated_energy_month
         name: '${friendly_name} - Monthly Energy'
         unit_of_measurement: "kWh"
-        accuracy_decimals: 0
+        accuracy_decimals: 3
         icon: "mdi:car-battery"
         state_class: total_increasing
         device_class: energy
@@ -181,7 +181,7 @@ sensor:
       - id: cumulated_energy_year
         name: '${friendly_name} - Yearly Energy'
         unit_of_measurement: "kWh"
-        accuracy_decimals: 0
+        accuracy_decimals: 3
         icon: "mdi:car-battery"
         state_class: total_increasing
         device_class: energy
@@ -191,7 +191,7 @@ sensor:
       - id: cumulated_energy_total
         name: '${friendly_name} - Total Energy'
         unit_of_measurement: "kWh"
-        accuracy_decimals: 0
+        accuracy_decimals: 3
         icon: "mdi:car-battery"
         state_class: total_increasing
         device_class: energy
