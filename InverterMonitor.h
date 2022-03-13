@@ -7,9 +7,9 @@ using namespace sensor;
 
 #define LED 2               //GPIO02, the ESP32 internal led
 
-#define RX 14               //GPIO14
-#define TX 27               //GPIO27
-#define TX_CONTROL_GPIO 26  //GPIO26
+#define RX 16               //GPIO14
+#define TX 17               //GPIO27
+#define TX_CONTROL_GPIO 4  //GPIO26
 #define INVERTER_ADDRESS 2  //Default address; this can be modified on the inverter settings menu
 
 #define CONNECTED "CONNECTED"
